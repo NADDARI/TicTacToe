@@ -81,3 +81,10 @@ body {
     border-bottom: 0;
   }
 }
+
+/* Styles go here */
+
+.aactive, .iinactive {font-size:40px;cursor:pointer;}
+.aactive, .iinactive {font-size:40px;cursor:pointer;}
+i.aactive { color: #5cb85c}
+i.iinactive {color: #d9534f}

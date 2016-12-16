@@ -1,3 +1,13 @@
+<div>
+  <pre><label>Alfa_Beta {{ status }}</label></pre>
+</div>
+<div class="well">
+  <i class="fa fa-toggle-on aactive" ng-if="status == true" ng-click="changeStatus();"></i>
+  <i class="fa fa-toggle-on fa-rotate-180 iinactive" ng-if="status == false" ng-click="changeStatus();"></i>
+</div>
+<div>
+  <pre><label>Explored nodes = {{ nodes }}</label></pre>
+</div>
 <div class="jumbotron">
   <div class="table-responsive">
   <table class="table">
@@ -20,8 +30,10 @@
     </tbody>
   </table>
     </div>
-  <div class="alert alert-success">
-    <strong>{{winner}}</strong>
-  </div>
 </div>
+<div class="alert alert-success fade in">
+  <strong style="align-content: center">{{winner}}</strong>
+</div>
+
+
 

@@ -10,7 +10,7 @@
  */
 angular
   .module('ticTacToeApp', [
-    'ngRoute'
+    'ngRoute',
   ])
   .config(function ($routeProvider) {
     $routeProvider
